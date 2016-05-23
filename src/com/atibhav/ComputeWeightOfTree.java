@@ -4,7 +4,7 @@ public class ComputeWeightOfTree {
 
 	public static void main(String[] args) {
 
-		Node n8 = new Node(null, null, 12);
+		Node n8 = new Node(null, null, 4);
 		
 		Node n1 = new Node(n8, null, 5);
 		Node n2 = new Node(null, null, 10);
@@ -28,7 +28,7 @@ public class ComputeWeightOfTree {
 	//Think : Sum = own value(already counted) + left child + right child
 	//Base condition: weight of empty tree is zero.
 
-// Try to vizualize till last depth
+// Try to visualize till last depth
 //	return 5 + 4 
 //			 + 2 + 0 + 0
 //			 + 1 + 0 + 0
