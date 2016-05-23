@@ -14,12 +14,14 @@
 ## Directory-based project format:
 .idea/
 .settings/
+.classpath
+.project
 
 ### Maven target directory
 target
-bin
 
 ### Log files
 *.log
 
-
+### bin folder of class file
+bin
