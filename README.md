@@ -18,8 +18,8 @@ returntype functionName(Initialization)
 {
        Terminate Condition  
        Logic goes here  
-       changing the variables like Increment and Decrement and passing those changed variables to the same function  
-}
+       changing the variables like Increment and Decrement and passing those changed variables to the same function}  
+       
 ================================================================
 Consider two students named "Recursion" and "Iteration".  
 
@@ -57,3 +57,13 @@ As the problem gets simpler and simpler (in this case, we’ll consider it “si
 eventually it will arrive at the “base case” and stop recursing. There are many ways to avoid infinite cycles, 
 but making sure that we’re dealing with progressively smaller or simpler problems is a good rule of thumb.
 
+# Use cases  
+
+* ###### Scenerio 1:  
+  Hierarchies/ Trees, Networks, or Graphs
+
+* ###### Scenario 2: 
+  Multiple Related Decisions
+
+* ###### Scenerio 3:
+  Explicit Recursive Relationships
